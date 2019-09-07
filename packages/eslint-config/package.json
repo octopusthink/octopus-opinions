@@ -7,7 +7,7 @@
   "license": "MIT",
   "main": "lib/eslint-config.js",
   "directories": {
-    "lib": "lib",
+    "lib": "lib"
   },
   "files": [
     "lib"
