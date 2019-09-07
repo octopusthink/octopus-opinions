@@ -5,14 +5,14 @@ const eslintConfig = {
   "parser": "babel-eslint",
   "plugins": ["emotion", "prettier", "react-hooks"],
   "rules": {
-    "import/no-named-as-default": false,
-    "import/prefer-default-export": false,
-    "react/forbid-foreign-prop-types": false,
-    "jsx-a11y/label-has-for": false,
+    "import/no-named-as-default": "off",
+    "import/prefer-default-export": "off",
+    "react/forbid-foreign-prop-types": "off",
+    "jsx-a11y/label-has-for": "off",
     "jsx-a11y/label-has-associated-control": "error",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "error",
-    "react/jsx-filename-extension": false,
+    "react/jsx-filename-extension": "off",
     "prettier/prettier": "error"
   },
   "settings": {
