@@ -1,6 +1,6 @@
 {
   "name": "@octopusthink/eslint-config",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A shareable ESLint config for Octopus Think projects (and other clever octopuses!)",
   "author": "Octopus Think",
   "homepage": "https://github.com/octopusthink/octopus-opinions/tree/master/packages/eslint-config#readme",
