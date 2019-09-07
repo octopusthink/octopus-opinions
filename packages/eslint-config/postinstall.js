@@ -1,5 +1,5 @@
 const chalk = require('chalk');
-const package = require('../package.json')
+const package = require('./package.json')
 
 const dependencies = Object.keys(package.peerDependencies).map((dependency) => {
   return `'${dependency}@${package.peerDependencies[dependency]}'`;
