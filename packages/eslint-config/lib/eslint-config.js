@@ -8,6 +8,7 @@ const eslintConfig = {
     "import/no-named-as-default": "off",
     "import/prefer-default-export": "off",
     "react/forbid-foreign-prop-types": "off",
+    "react/jsx-fragments": ["error", "element"],
     "jsx-a11y/label-has-for": "off",
     "jsx-a11y/label-has-associated-control": "error",
     "react-hooks/rules-of-hooks": "error",
