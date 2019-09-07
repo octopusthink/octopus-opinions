@@ -1,11 +1,17 @@
 # `@octopusthink/prettier-config`
 
-> TODO: description
+Shareable Prettier configs.
 
 ## Usage
 
+```bash
+npm install --save-dev @octopusthink/prettier-config
 ```
-const prettierConfig = require('@octopusthink/prettier-config');
 
-// TODO: DEMONSTRATE API
+Add a prettier field to your `package.json`:
+
+```json
+{
+  "prettier": "@octopusthink/prettier-config"
+}
 ```

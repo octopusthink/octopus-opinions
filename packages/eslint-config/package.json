@@ -20,13 +20,17 @@
     "url": "git+https://github.com/octopusthink/octopus-opinions.git"
   },
   "scripts": {
+    "postinstall": "node bin/postinstall.js",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
     "url": "https://github.com/octopusthink/octopus-opinions/issues"
   },
   "dependencies": {
-    "eslint": "^6.3.0",
+    "chalk": "^2.4.2"
+  },
+  "peerDependencies": {
+    "eslint": ">=6.3.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-prettier": "^6.2.0",
     "eslint-plugin-emotion": "^10.0.14",

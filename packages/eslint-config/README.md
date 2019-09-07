@@ -1,11 +1,21 @@
 # `@octopusthink/eslint-config`
 
-> TODO: description
+Shareable ESLint configs; includes `prettier` integration.
 
 ## Usage
 
+```bash
+npm install --save-dev @octopusthink/eslint-config
 ```
-const eslintConfig = require('@octopusthink/eslint-config');
 
-// TODO: DEMONSTRATE API
+Then add the ESLint config to your own `.eslintrc`:
+
+```json
+{
+  "extends": [
+    "@octopusthink/eslint-config"
+  ]
+}
 ```
+
+You'll need to install the peer-dependencies for this project as well.
