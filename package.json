@@ -1,0 +1,20 @@
+{
+  "name": "@octopusthink/octopus-opinions",
+  "author": "Octopus Think",
+  "license": "MIT",
+  "private": true,
+  "homepage": "https://github.com/octopusthink/octopus-opinions/",
+  "bugs": {
+    "url": "https://github.com/octopusthink/octopus-opinions/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/octopusthink/octopus-opinions.git"
+  },
+  "prettier": "@octopusthink/prettier-config",
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "lerna": "^3.16.4",
+    "prettier": "^1.18.2"
+  }
+}

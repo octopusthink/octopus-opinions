@@ -1,0 +1,16 @@
+# Ignore logs...
+logs
+*.log
+npm-debug.log*
+yarn.error-log
+
+# OS-specific junk
+.DS_Store
+
+# Build artifacts
+.cache
+build
+build-module
+build-style
+node_modules
+gutenberg.zip
