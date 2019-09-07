@@ -10,7 +10,8 @@
     "lib": "lib"
   },
   "files": [
-    "lib"
+    "lib",
+    "postinstall.js"
   ],
   "publishConfig": {
     "access": "public"
@@ -20,7 +21,7 @@
     "url": "git+https://github.com/octopusthink/octopus-opinions.git"
   },
   "scripts": {
-    "postinstall": "node postinstall || echo \"ignore\"",
+    "postinstall": "node postinstall.js || echo \"ignore\"",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
