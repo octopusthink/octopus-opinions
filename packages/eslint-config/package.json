@@ -20,7 +20,7 @@
     "url": "git+https://github.com/octopusthink/octopus-opinions.git"
   },
   "scripts": {
-    "postinstall": "node bin/postinstall.js",
+    "postinstall": "node ./bin/postinstall.js",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
