@@ -14,6 +14,7 @@ const eslintConfig = {
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "error",
     "react/jsx-filename-extension": "off",
+    "react/jsx-one-expression-per-line": "off",
     "prettier/prettier": "error"
   },
   "settings": {
