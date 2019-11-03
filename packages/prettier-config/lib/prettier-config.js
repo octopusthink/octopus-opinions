@@ -12,7 +12,7 @@ const prettierConfig = {
     {
       "files": "*.md",
       "options": {
-        "printWidth": 80,
+        "printWidth": 0,
         "proseWrap": "never",
         "semi": false,
         "trailingComma": "none"
@@ -21,7 +21,7 @@ const prettierConfig = {
     {
       "files": "*.mdx",
       "options": {
-        "printWidth": 100,
+        "printWidth": 0,
         "proseWrap": "never",
         "semi": false,
         "trailingComma": "none"
