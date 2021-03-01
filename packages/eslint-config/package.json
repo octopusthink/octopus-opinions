@@ -10,8 +10,7 @@
     "lib": "lib"
   },
   "files": [
-    "lib",
-    "postinstall.js"
+    "lib"
   ],
   "publishConfig": {
     "access": "public"
@@ -21,25 +20,24 @@
     "url": "git+https://github.com/octopusthink/octopus-opinions.git"
   },
   "scripts": {
-    "postinstall": "node postinstall.js || echo \"ignore\"",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
     "url": "https://github.com/octopusthink/octopus-opinions/issues"
   },
   "dependencies": {
-    "chalk": "^2.4.2"
+    "chalk": "^4.1.0"
   },
   "peerDependencies": {
-    "eslint": ">=6.3.0",
-    "eslint-config-airbnb": "^18.0.1",
-    "eslint-config-prettier": "^6.2.0",
-    "eslint-plugin-emotion": "^10.0.14",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jest": "^22.17.0",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-prettier": "^3.1.0",
-    "eslint-plugin-react": "^7.14.3",
-    "eslint-plugin-react-hooks": "^2.0.1"
+    "@emotion/eslint-plugin": "^11.2.0",
+    "eslint": ">=7.21.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.1.5",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0"
   }
 }

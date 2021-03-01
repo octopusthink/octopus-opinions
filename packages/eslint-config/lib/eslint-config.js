@@ -3,7 +3,7 @@
 const eslintConfig = {
   "extends": ["airbnb", "plugin:jest/recommended", "prettier"],
   "parser": "babel-eslint",
-  "plugins": ["emotion", "prettier", "react-hooks"],
+  "plugins": ["@emotion", "prettier", "react-hooks"],
   "rules": {
     "import/no-named-as-default": "off",
     "import/prefer-default-export": "off",

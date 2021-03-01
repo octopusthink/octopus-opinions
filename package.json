@@ -13,8 +13,8 @@
   },
   "prettier": "@octopusthink/prettier-config",
   "devDependencies": {
-    "eslint": "^6.3.0",
-    "lerna": "^3.16.4",
-    "prettier": "^1.18.2"
+    "eslint": "^7.21.0",
+    "lerna": "^3.22.1",
+    "prettier": "^2.2.1"
   }
 }
